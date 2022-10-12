@@ -22,3 +22,10 @@ export const Large: StoryObj<TextProps> = {
 		size: 'md',
 	},
 }
+
+export const CustomComponent: StoryObj<TextProps> = {
+	args: {
+		asChild: true,
+		children: <p>Testando</p>,
+	},
+}
